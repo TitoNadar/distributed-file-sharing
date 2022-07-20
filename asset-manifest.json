@@ -1,7 +1,7 @@
 {
   "main.css": "/distributed-file-sharing/static/css/main.b3276bfe.chunk.css",
-  "main.js": "/distributed-file-sharing/static/js/main.f9d0f7b9.chunk.js",
-  "main.js.map": "/distributed-file-sharing/static/js/main.f9d0f7b9.chunk.js.map",
+  "main.js": "/distributed-file-sharing/static/js/main.dcb34770.chunk.js",
+  "main.js.map": "/distributed-file-sharing/static/js/main.dcb34770.chunk.js.map",
   "static/css/1.8ad77007.chunk.css": "/distributed-file-sharing/static/css/1.8ad77007.chunk.css",
   "static/js/1.6ca31e0c.chunk.js": "/distributed-file-sharing/static/js/1.6ca31e0c.chunk.js",
   "static/js/1.6ca31e0c.chunk.js.map": "/distributed-file-sharing/static/js/1.6ca31e0c.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.b3276bfe.chunk.css.map": "/distributed-file-sharing/static/css/main.b3276bfe.chunk.css.map",
   "static/css/1.8ad77007.chunk.css.map": "/distributed-file-sharing/static/css/1.8ad77007.chunk.css.map",
   "index.html": "/distributed-file-sharing/index.html",
-  "precache-manifest.14e0c15e00ded032d81aea8728e37233.js": "/distributed-file-sharing/precache-manifest.14e0c15e00ded032d81aea8728e37233.js",
+  "precache-manifest.479831c02a4a26a1fc9470b21662ab43.js": "/distributed-file-sharing/precache-manifest.479831c02a4a26a1fc9470b21662ab43.js",
   "service-worker.js": "/distributed-file-sharing/service-worker.js"
 }
