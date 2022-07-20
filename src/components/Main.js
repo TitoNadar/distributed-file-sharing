@@ -38,6 +38,11 @@ export default function Main(props) {
     }
   }
 
+  function copy(key) {
+    navigator.clipboard.writeText("https://ipfs.infura.io/ipfs/" + allFiles[key].fileHash);
+    alert("Copied Successfully!");
+  }
+
   return (
     <div className="container text-center  mt-3 mb-5">
       <Link to="uploadfiles">
@@ -55,7 +60,8 @@ export default function Main(props) {
                     <th scope="col" style={{ width: '20%' }}>name</th>
                     <th scope="col" style={{ width: '25%'}}>description</th>
                     <th scope="col" style={{ width: '15%'}}>type</th>
-                    <th scope="col" style={{ width: '8%' }}>size</th>
+                    <th scope="col" style={{ width: '12%' }}>size</th>
+                    <th scope="col" style={{ width: '8%' }}>share</th>
                     <th scope="col" style={{ width: '12%' }}>View File</th>
                     <th scope="col" style={{ width: '8%' }}>Delete</th>
                   </tr>
@@ -73,7 +79,8 @@ export default function Main(props) {
                           <td style={{ width: '20%' }}>{file.fileName}</td>
                           <td style={{ width: '25%' }}>{file.fileDes}</td>
                           <td style={{ width: '15%' }}>{file.fileType}</td>
-                          <td style={{ width: '8%' }}>{convertBytes(file.fileSize)}</td>
+                          <td style={{ width: '12%' }}>{convertBytes(file.fileSize)}</td>
+                          <td style={{ width: '8%' }}><button className="btn btn-outline-warning" onClick={() => {copy(key)}}><img style = {{width : '45px', height: '30px'}} src="http://clipground.com/images/copy-4.png"  title="Click to Copy" /></button></td>
                            <td style={{ width: '12%' }}><a href={"https://ipfs.infura.io/ipfs/" + file.fileHash} rel="noopener noreferrer" target="_blank" className="btn btn-primary">View</a></td>
                           <td style={{ width: '8%' }}>
                             <button onClick={() => { deleteFile0(file.fileId.toNumber()) }} className="btn btn-outline-danger"><i class="bi bi-trash"></i></button>

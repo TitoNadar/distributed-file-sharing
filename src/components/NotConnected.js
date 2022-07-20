@@ -4,7 +4,7 @@ export default function NotConnected() {
     return (
         <div className="container text-center bg-light my-5" style={{ borderRadius: 20 }}>
             <h1 className="mt-3 text-primary">Please Connect to Ropsten test network</h1>
-            <a href="https://faucet.ropsten.be/" rel="noopener noreferrer" target="_blank" className="btn btn-success">Get free Ether for Ropsten test network</a>
+            <a href="https://faucet.metamask.io/" rel="noopener noreferrer" target="_blank" className="btn btn-success">Get free Ether for Ropsten test network</a>
             <h4 className="my-3">Follow these instructions for connect metamask with Ropsten test network</h4>
             <hr />
 

@@ -158,13 +158,15 @@ class App extends Component {
           .on('receipt', (receipt) => {
           })
           .on('confirmation', async (confirmationNumber, receipt) => {
-
-            await this.loadMyAllFiles();
-            this.setState({
-              loading: false,
-              buffer: '',
-              showFileDetails: false
-            })
+              if(confirmationNumber == 1) {
+                await this.loadMyAllFiles();
+                this.setState({
+                  loading: false,
+                  buffer: '',
+                  showFileDetails: false
+                })
+                alert("Uploaded successfully. Have a nice day!")
+              }
           })
           .on('error', (error, receipt) => {
             console.log('error', error)
@@ -193,7 +195,7 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <div className="" >
+        <div >
           {this.state.connected
             ?
             <>
