@@ -1,0 +1,13 @@
+Deploying 'DistributedFileSharingDapp'
+-------------------------------------- 
+> transaction hash:    0x2b61bee519fc40616f28946727f98b27184eb4a52205758f81bd5683cc3e7331   
+> Blocks: 2            Seconds: 29  
+> contract address:    0x6Dd6A05042c2F302ded07688440301d41BB47557       
+> block number:        12628494  
+> block timestamp:     1658292828     
+> account:             0x37931CAAc7acDbd8B3d033D155fB2cD973438d99                 
+> balance:             3.881929262177664462     
+> gas used:            1077910 (0x107296)                               
+> gas price:           25 gwei                 
+> value sent:          0 ETH                                                                                     
+> total cost:          0.02694775 ETH
