@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/distributed-file-sharing/static/js/runtime~main.cfb7239b.js"
   },
   {
-    "revision": "e07b538aa51b6fa77f32828af21cb591",
-    "url": "/distributed-file-sharing/static/media/bootstrap-icons.e07b538a.woff2"
-  },
-  {
     "revision": "7fb23f3b56a834d9dcf615b5e7c78da8",
     "url": "/distributed-file-sharing/static/media/bootstrap-icons.7fb23f3b.woff"
+  },
+  {
+    "revision": "e07b538aa51b6fa77f32828af21cb591",
+    "url": "/distributed-file-sharing/static/media/bootstrap-icons.e07b538a.woff2"
   },
   {
     "revision": "ad56828d94c476fd2c61ca6ba3445216",
