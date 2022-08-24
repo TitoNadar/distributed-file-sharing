@@ -1,11 +1,19 @@
-# Blockchain Backed Distributed File Sharing Application
+## Blockchain Backed Distributed File Sharing Application
 
 Developed 'Distributed File Sharing' using IPFS, Ethereum blockchain and React. 
 
 ---------------------------
-## Features:--
+
+# Features:--
 - => Upload Any type of files in Decentralized Storage (IPFS)
 - => Only you can access and delete your files 
 
-[Demo](https://titonadar.github.io/distributed-file-sharing/)
+# Smart Contracts in Solidity. Website built using React
+
+![imagename](https://raw.githubusercontent.com/titonadar/distributed-file-sharing/master/public/img/distributed_file_sharing_form.PNG)
+
+![imagename](https://raw.githubusercontent.com/titonadar/distributed-file-sharing/master/public/img/distributed_file_sharing_landing_page.PNG)
+
+![imagename](https://raw.githubusercontent.com/titonadar/distributed-file-sharing/master/public/img/ropston.PNG)
+
 
